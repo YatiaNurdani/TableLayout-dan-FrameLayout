@@ -1,70 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
-xmlns:app="http://schemas.android.com/apk/res-auto"
-xmlns:tools="http://schemas.android.com/tools"
-android:layout_width="match_parent"
-android:layout_height="match_parent"
-    android:stretchColumns="1"
-tools:context=".MainActivity">
-
-<TableRow
-    android:background="#22ff">
-    <TextView
-        android:layout_column="1"
-        android:text="open..."
-        android:padding="3dip"/>
-    <TextView
-        android:text="Ctrl-O"
-        android:gravity="right"
-        android:padding="3dip"/>
-</TableRow>
-
-    <TableRow android:background="#22ff">
-        <TextView
-            android:layout_column="1"
-            android:text="Save As..."
-            android:padding="3dip"/>
-    </TableRow>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
 
     <View
-        android:layout_height="2dip"
-        android:background="#FF909090"/>
-<TableRow
-    android:background="#ffff00">
-    <TextView
-        android:text="X"
-        android:padding="3dip"/>
-    <TextView
-        android:text="Import..."
-        android:padding="3dip"/>
-</TableRow>
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/holo_blue_light"/>
 
-    <TableRow
-        android:background="#ffff00">
-        <TextView
-            android:text="X"
-            android:padding="3dip"/>
-        <TextView
-            android:text="Export..."
-            android:padding="3dip"/>
-        <TextView
-            android:text="Ctrl-E"
-            android:gravity="right"
-            android:padding="3dip"/>
-
-    </TableRow>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@mipmap/ic_launcher"/>
 
     <View
-        android:layout_height="2dip"
-        android:background="#FF909090"/>
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:background="@android:color/holo_orange_light"/>
 
-    <TableRow android:background="#aaf">
-        <TextView
-            android:layout_column="1"
-            android:text="Quit"
-            android:padding="3dip"/>
-    </TableRow>
+    <View
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:background="@android:color/holo_orange_light"/>
 
-
-
-</TableLayout>
+</FrameLayout>

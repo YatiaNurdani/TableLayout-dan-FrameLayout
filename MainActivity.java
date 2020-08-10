@@ -1,4 +1,4 @@
-package com.example.tablelayout;
+package com.example.framelayout;
 
 import androidx.appcompat.app.AppCompatActivity;
 
